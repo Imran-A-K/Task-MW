@@ -1,0 +1,25 @@
+.skeleton {
+  background-color: #ddd;
+  color: #aaa;
+  animation: skeleton 1s ease-in-out infinite alternate;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+@keyframes skeleton {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
